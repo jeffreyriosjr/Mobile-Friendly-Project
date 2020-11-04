@@ -1,22 +1,27 @@
-:root{
-    --primary: 28666E;
-    --secondary:B5B682;
-    --special: 033F63;
 
 
-}
-body, head .container {
-    margin: 0;
-    padding: 0;
-}
 
-
-footer {
-    width: auto;
-    height: 100%;
-}
 .jumbotron {
-    
-    background-image: url("/img/DJpic2.png")
-   
+    margin-top: 20px;
+    background-image: url(../img/RiosLogo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: fantasy;
+
+
+  }
+
+.row {
+  margin: 50px;
+  
+}
+.footer {
+
+  font-family: fantasy;
+  font-size: 35px;
+  color: rgb(228, 192, 192);
+  background-size: cover;
+  margin: 150px;
+  padding: 5px;
+  
 }
