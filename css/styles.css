@@ -1,0 +1,22 @@
+:root{
+    --primary: 28666E;
+    --secondary:B5B682;
+    --special: 033F63;
+
+
+}
+body, head .container {
+    margin: 0;
+    padding: 0;
+}
+
+
+footer {
+    width: auto;
+    height: 100%;
+}
+.jumbotron {
+    
+    background-image: url("/img/DJpic2.png")
+   
+}
