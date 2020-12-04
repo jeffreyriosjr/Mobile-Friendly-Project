@@ -27,7 +27,7 @@ a {
 }
 
 a:hover {
-  color: #e60909;
+  color: #9b4b4b;
 }
 
 body {
@@ -83,6 +83,7 @@ h1, h2, h3, li, a {
 }
 
 h1 {
+  color: #dad1b6;
   font-size: 2.4em;
   letter-spacing: -2.5px;
   
@@ -95,7 +96,7 @@ h2 {
 
 h3 {
   font-size: 1.6em;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /**************************
@@ -107,6 +108,7 @@ ul {
 }
 
 .main-nav li a {
+  
   color: black;
   display: block;
   list-style: none;
@@ -152,7 +154,7 @@ IMAGES
   width: 75%;
   margin: 0 auto;
   transition: all .2s;
-  border: solid 8px #ebdede;
+  border: solid 8px #dad1b6;
 }
 
 .content img {
@@ -163,7 +165,7 @@ IMAGES
 
 .profile-pic:hover,
 .content img:hover {
-  transform: scale(1.05);
+  transform: scale(2.05);
 }
 
 .profile-pic:hover {
@@ -213,10 +215,10 @@ footer {
 }
 
 footer p {
-  font-size: 1em;
+  font-size: 2em;
   font-weight: 600;
   color: #070b0a;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .left {
@@ -324,6 +326,8 @@ DESKTOP MEDIA QUEIRIE
     background-image: url(https://images.pexels.com/photos/2531237/pexels-photo-2531237.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
     background-size: cover;
     width: 95%;
+    border-block: 1cm;
+    border-block-color: white;
     
     margin: 0 auto;
   }
@@ -344,7 +348,7 @@ DESKTOP MEDIA QUEIRIE
 
   .main-nav {
     float: right;
-    border-bottom: solid 2px #fafafa;
+    border-bottom: solid 2px #e7e2c7;
     padding-top: 8px;
   }
 
@@ -399,14 +403,14 @@ DESKTOP MEDIA QUEIRIE
 }
 body{
   
-  background-image: url(https://images.pexels.com/photos/1025469/pexels-photo-1025469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-  background-size: cover;
+
+  background-size: contain;
   background-repeat: no-repeat;
   background-attatchment: fixed;
-  background-color:gray;
+  
   margin: 0 auto;
   padding: 0 auto;
-  position: relative;
+  position: absolute;
   font-display: none;
   
 }
